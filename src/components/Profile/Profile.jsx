@@ -2,37 +2,37 @@ import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
 
-export const Profile = ({username, tag, location, avatar, 
-    stats}) => {    
+export const Profile = ({ username, tag, location, avatar, stats }) => {    
     return (
-    <div className={css.profile}>
+    <div className={css.Profile_profile__mxenJ}>
         <div className={css.description}>
     <img
-      src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
+      src={avatar}
       alt="User avatar"
-      className={css.avatar}
+      className={css.Profile_avatar__YMqwY}
     />
-    <p className={css.name}>Petra Marica</p>
-    <p className={css.tag}>@pmarica</p>
-    <p className={css.location}>Salvador, Brasil</p>
+    <p className={css.Profile_name__MU1OG}>{username}</p>
+    <p className={css.Profile_tag__LiGIU}>@{tag}</p>
+    <p className={css.Profile_location__KdCvS}>{location}</p>
   </div>  
   
   <ul className={css.stats}>
-    <li className={css.stats__item}>
-      <span className={css.label}>Followers</span>
-      <span className={css.quantity}>1000</span>
+     <div className={css.liwrapper}> 
+    <li className={css.Profile_stats__item__OnWmg}>
+      <span className={css.Profile_label__1Vmbr}>Followers</span>
+      <span className={css.Profile_quantity__3qTiW}>{stats.followers}</span>
     </li>
-    <li className={css.stats__item}>
-      <span className={css.label}>Views</span>
-      <span className={css.quantity}>2000</span>
+    <li className={css.Profile_stats__item__OnWmg}>
+      <span className={css.Profile_label__1Vmbr}>Views</span>
+      <span className={css.Profile_quantity__3qTiW}>{stats.views}</span>
     </li>
-    <li className={css.stats__item}>
-      <span className={css.label}>Likes</span>
-      <span className={css.quantity}>3000</span>
+    <li className={css.Profile_stats__item__OnWmg}>
+      <span className={css.Profile_label__1Vmbr}>Likes</span>
+      <span className={css.Profile_quantity__3qTiW}>{stats.likes}</span>
     </li>
-  </ul>
-  
-    </div>
+     </div> 
+  </ul>  
+ </div>
     
     );
 };
@@ -42,7 +42,10 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired, 
     location: PropTypes.string.isRequired, 
     avatar: PropTypes.string.isRequired, 
-    stats: PropTypes.number.isRequired
+    stats: PropTypes.number.isRequired,         
+};
 
-}
+
+
+
 
