@@ -1,4 +1,4 @@
-.Profile_profile__mxenJ {
+.profile {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -37,24 +37,24 @@
     border-top: 1px solid grey; */
 
 }
-.Profile_stats__item__OnWmg {
+.stats__item {
        display: flex;
     flex-direction: column;
     align-items: center;    
     padding: 10px 30px;      
 }
 
- .Profile_stats__item__OnWmg:not(:last-child){
+ .stats__item:not(:last-child){
     border-right: 1px solid rgb(200, 190, 190);  
 } 
 
-.Profile_label__1Vmbr {
+.label {
     font-family: inherit;
     font-size: 20px;
     color: rgb(135, 129, 129);
 }
 
-.Profile_quantity__3qTiW {
+.quantity {
     font-family: inherit;
     font-size: 26px;
     font-weight: bold;
@@ -62,7 +62,7 @@
 }
 
 
-.Profile_avatar__YMqwY {
+.avatar {
     display: block;
     border: 3px solid darkgray;
     border-radius: 50%;
@@ -78,7 +78,7 @@
        
 }
 
-.Profile_name__MU1OG {
+.name {
     margin: 0;
     font-family: inherit;
     font-size: 30px;
@@ -87,7 +87,7 @@
     margin-bottom: 26px;
 }
 
-.Profile_tag__LiGIU {
+.tag {
     margin: 0;
     margin-bottom: 10px;
     font-family: inherit;
@@ -96,7 +96,7 @@
     color: rgb(110, 98, 98);
 }
 
-.Profile_location__KdCvS {
+.location {
     font-family: inherit;
     font-size: 18px;
     color: rgb(110, 98, 98);

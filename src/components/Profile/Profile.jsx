@@ -4,31 +4,31 @@ import css from './Profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {    
     return (
-    <div className={css.Profile_profile__mxenJ}>
+    <div className={css.profile}>
         <div className={css.description}>
     <img
       src={avatar}
       alt="User avatar"
-      className={css.Profile_avatar__YMqwY}
+      className={css.avatar}
     />
-    <p className={css.Profile_name__MU1OG}>{username}</p>
-    <p className={css.Profile_tag__LiGIU}>@{tag}</p>
-    <p className={css.Profile_location__KdCvS}>{location}</p>
+    <p className={css.name}>{username}</p>
+    <p className={css.tag}>@{tag}</p>
+    <p className={css.location}>{location}</p>
   </div>  
   
   <ul className={css.stats}>
      <div className={css.liwrapper}> 
-    <li className={css.Profile_stats__item__OnWmg}>
-      <span className={css.Profile_label__1Vmbr}>Followers</span>
-      <span className={css.Profile_quantity__3qTiW}>{stats.followers}</span>
+    <li className={css.stats__item}>
+      <span className={css.label}>Followers</span>
+      <span className={css.quantity}>{stats.followers}</span>
     </li>
-    <li className={css.Profile_stats__item__OnWmg}>
-      <span className={css.Profile_label__1Vmbr}>Views</span>
-      <span className={css.Profile_quantity__3qTiW}>{stats.views}</span>
+    <li className={css.stats__item}>
+      <span className={css.label}>Views</span>
+      <span className={css.quantity}>{stats.views}</span>
     </li>
-    <li className={css.Profile_stats__item__OnWmg}>
-      <span className={css.Profile_label__1Vmbr}>Likes</span>
-      <span className={css.Profile_quantity__3qTiW}>{stats.likes}</span>
+    <li className={css.stats__item}>
+      <span className={css.label}>Likes</span>
+      <span className={css.quantity}>{stats.likes}</span>
     </li>
      </div> 
   </ul>  

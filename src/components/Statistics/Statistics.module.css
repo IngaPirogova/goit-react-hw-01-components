@@ -1,0 +1,13 @@
+.title {
+    font-size: 28px;
+    color: forestgreen;
+}
+
+.statistics {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stat__list {
+    list-style: none;
+}
