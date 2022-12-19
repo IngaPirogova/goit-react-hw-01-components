@@ -19,9 +19,8 @@ return (
         ))}    
     </ul>
 </section>
-
-
 )};
+
 
 Statistics.propTypes = {
     title: PropTypes.string.isRequired, 
