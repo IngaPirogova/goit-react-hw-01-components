@@ -11,3 +11,14 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
         </li>
     )
 }
+
+FriendListItem.propTypes = {
+    friends: PropTypes.arrayOf(
+        PropTypes.exact({     
+            avatar: PropTypes.string.isRequired,   
+            name: PropTypes.string.isRequired,
+            id: PropTypes.number.isRequired,
+            isOnline: PropTypes.bool.isRequired,
+    }),
+    ),    
+};
