@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.74a815a4.css",
-    "main.js": "/goit-react-hw-01-components/static/js/main.521d78f3.js",
-    "index.html": "/goit-react-hw-01-components/index.html",
-    "main.74a815a4.css.map": "/goit-react-hw-01-components/static/css/main.74a815a4.css.map",
-    "main.521d78f3.js.map": "/goit-react-hw-01-components/static/js/main.521d78f3.js.map"
+    "main.css": "/IngaPirogova/goit-react-hw-01-components/static/css/main.64b3d9a2.css",
+    "main.js": "/IngaPirogova/goit-react-hw-01-components/static/js/main.cf6c5f9d.js",
+    "index.html": "/IngaPirogova/goit-react-hw-01-components/index.html",
+    "main.64b3d9a2.css.map": "/IngaPirogova/goit-react-hw-01-components/static/css/main.64b3d9a2.css.map",
+    "main.cf6c5f9d.js.map": "/IngaPirogova/goit-react-hw-01-components/static/js/main.cf6c5f9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a815a4.css",
-    "static/js/main.521d78f3.js"
+    "static/css/main.64b3d9a2.css",
+    "static/js/main.cf6c5f9d.js"
   ]
 }
